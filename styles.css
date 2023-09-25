@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.poster{
+	width:400px;
+	height:500px;
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	border:1px solid black;
+	padding:10px;
+	border-radius:5px;
+	background-color:beige
+}
+.moviePic{
+	height:300px;
+	width:300px;
+	opacity:0.75;
+}
+
+.movieDetail{
+	text-align:center;
+	position:relative; 
+	top:5px;
+	font-size:14px;
+}
+
+
+
+
+
